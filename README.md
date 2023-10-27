@@ -1,4 +1,4 @@
-## Charades Starter Code for Activity Recognition in Torch and PyTorch
+***Charades Starter Code for Activity Recognition in Torch and PyTorch
 
 Contributor: Gunnar Atli Sigurdsson
 
@@ -33,3 +33,4 @@ The code is organized such that to train a two-stream network. Two independed ne
 This code parses the training data into pairs of an image (or flow), and a label for a single activity class. This forms a softmax training setup like a standard CNN. The network is a VGG-16 network. For RGB it is pretrained on Image-Net, and for Flow it is pretrained on UCF101. The pretrained networks can be downloaded with the scripts in this directory.
 For testing. The network uses a batch size of 25, scores all images, and pools the output to make a classfication prediction or uses all 25 outputs for localization.
 
+ 
