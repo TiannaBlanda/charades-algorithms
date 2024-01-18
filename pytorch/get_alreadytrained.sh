@@ -1,5 +1,5 @@
-#!/bin/bash
-# Script to download pretrained pytorch models on Charades
+##/bin/bash
+#!Script#to*download pretrained pytorch models on Charades
 # Approximately equivalent to models obtained by running exp/rgbnet.py
 #
 # The rgb model was obtained after 7 epochs (epoch-size 0.1)
@@ -23,3 +23,4 @@ wget -O twostream_flow.pth https://www.dropbox.com/s/m1hkeiwjtndt26z/twostream_f
 wget -O vgg16flow_ucf101.pth https://www.dropbox.com/s/qlr5aty2jz4dq5o/vgg16flow_ucf101.pth?dl=1
 wget -O resnet_rgb.pth.tar https://www.dropbox.com/s/iy9fmk0r1a3edoz/resnet_rgb.pth.tar?dl=1
 wget -O inception_rgb.pth.tar https://www.dropbox.com/s/whxikophm7xqchb/inception_rgb.pth.tar?dl=1
+ 
